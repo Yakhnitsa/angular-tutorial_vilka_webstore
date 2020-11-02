@@ -10,7 +10,8 @@ export class Product {
       carbon: Nutrient;
     };
     calories: number;
-    otherNutritions: Nutrient[];
+    otherNutrients: Nutrient[];
+    icon: string;
 }
 export class Nutrient{
   name: string;
