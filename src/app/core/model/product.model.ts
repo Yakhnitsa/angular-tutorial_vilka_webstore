@@ -1,23 +1,21 @@
 export class Product {
-    id: number;
-    name: string;
-    description: string;
-    mass: number;
-    price: number;
-    basicNutrients: {
+  public id: number;
+  public name: string;
+  public description: string;
+  public mass: number;
+  public price: number;
+  public basicNutrients: {
       protein: Nutrient;
       fat: Nutrient;
       carbon: Nutrient;
     };
-    calories: number;
-    otherNutrients: Nutrient[];
-    icon: string;
+  public calories: number;
+  public otherNutrients: Nutrient[];
+  public icon: string;
 }
 export class Nutrient{
-  name: string;
-  mass: number;
   constructor(
-    name: string,
-    mass: number
+    public name: string,
+    public mass: number
   ){}
 }

@@ -13,3 +13,4 @@ exports.__esModule = true;
 __exportStar(require("./api.service"), exports);
 __exportStar(require("./shopping-cart.service"), exports);
 __exportStar(require("./user-profile.service"), exports);
+__exportStar(require("./alert.service"), exports);

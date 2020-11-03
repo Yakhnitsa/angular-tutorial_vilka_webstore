@@ -6,6 +6,7 @@ import {
   ApiService,
   ShoppingCartService,
   UserProfileService,
+  AlertService
 } from './services';
 
 
@@ -18,6 +19,7 @@ import {
     ApiService,
     ShoppingCartService,
     UserProfileService,
+    AlertService,
   ],
 })
 export class CoreModule { }

@@ -23,6 +23,7 @@ var CoreModule = /** @class */ (function () {
                 services_1.ApiService,
                 services_1.ShoppingCartService,
                 services_1.UserProfileService,
+                services_1.AlertService,
             ],
         })
     ], CoreModule);
