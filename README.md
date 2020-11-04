@@ -10,3 +10,10 @@
   `npm install jquery`
   добавляем `@import "~bootstrap/dist/css/bootstrap.css"` в styles корня проекта.
   Устанавливаем виджеты бутстрап (https://ng-bootstrap.github.io/#/home);
+
+## Создаем Mock сервер [мануал](https://medium.com/letsboot/the-perfect-mock-backend-to-start-with-an-angular-application-3d751d16614f)
+  Устанавливаем сервер: `npm install -g json-server`
+  добавляем скрипт запуска: `"json": "json-server --watch mockDB.json -p 3511"`
+
+## Подключаем [postman](https://universal-crater-378362.postman.co/build/workspace/My-Workspace~5c49ea96-2bc7-4ce2-88ba-f57f19b274c5/request/13359816-42d038f5-3ad3-4e76-adfe-01fee099d7a9)
+ Работа с [postman](https://medium.com/codingthesmartway-com-blog/create-a-rest-api-with-json-server-36da8680136d)

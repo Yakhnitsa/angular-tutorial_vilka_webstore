@@ -5,9 +5,9 @@ export class Product {
   public mass: number;
   public price: number;
   public basicNutrients: {
-      protein: Nutrient;
-      fat: Nutrient;
-      carbon: Nutrient;
+      proteins: number;
+      fats: number;
+      carbons: number;
     };
   public calories: number;
   public otherNutrients: Nutrient[];
@@ -15,7 +15,7 @@ export class Product {
 }
 export class Nutrient{
   constructor(
-    public name: string,
-    public mass: number
+    public type: string,
+    public quantity: number
   ){}
 }

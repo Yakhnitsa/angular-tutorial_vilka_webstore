@@ -1,0 +1,35 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Chicken egg",
+      "description": "Simple chicken egg, 1-st category",
+      "mass": 50,
+      "price": 250,
+      "basicNutrients": {
+        "proteins": 12.7,
+        "fats": 11.5,
+        "carbons": 0.7
+      },
+      "calories": 157,
+      "icon": "no icon",
+      "otherNutrients": []
+    },
+    {
+      "id": 2,
+      "name": "Chicken beast",
+      "description": "Chicken beast from broiler",
+      "mass": 1000,
+      "price": 12000,
+      "basicNutrients": {
+        "proteins": 23.6,
+        "fats": 1.9,
+        "carbons": 0.4
+      },
+      "calories": 113,
+      "icon": "no icon",
+      "otherNutrients": []
+    }
+  ],
+  "shopping-cart": []
+}
