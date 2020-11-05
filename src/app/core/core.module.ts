@@ -1,25 +1,27 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { ProductApiMockedService} from './http/product-api-mocked.service';
 
 import {
-  ApiService,
+  ProductsService,
   ShoppingCartService,
   UserProfileService,
   AlertService
 } from './services';
 
 
+
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule
+    CommonModule,
   ],
   providers: [
-    ApiService,
+    ProductsService,
     ShoppingCartService,
     UserProfileService,
     AlertService,
+    ProductApiMockedService
   ],
 })
 export class CoreModule { }

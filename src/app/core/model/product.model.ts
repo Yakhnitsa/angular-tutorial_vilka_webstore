@@ -1,5 +1,6 @@
 export class Product {
   public id: number;
+  public type: ProductType;
   public name: string;
   public description: string;
   public mass: number;
@@ -18,4 +19,21 @@ export class Nutrient{
     public type: string,
     public quantity: number
   ){}
+}
+export enum ProductType{
+  MEAT,
+  FISH,
+  POULTRY,
+  CEREALS,
+  PASTA,
+  FRUITS,
+  VEGETABLES,
+  BEANS,
+  NUTS,
+  MILK,
+  EGGS,
+  SPICES,
+  SUPPLEMENTS,
+  WATER,
+  OTHER
 }

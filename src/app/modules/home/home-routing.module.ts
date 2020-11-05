@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import {ProductsComponent, ShoppingCartComponent, UserProfileComponent} from './pages';
+import {ProductsComponent, ShoppingCartComponent, UserProfileComponent, EditorPageComponent} from './pages';
 import {Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
@@ -11,6 +11,9 @@ const routes: Routes = [
   },
   {
     path: 'user-profile', component: UserProfileComponent,
+  },
+  {
+    path: 'edit', component: EditorPageComponent,
   },
 
 ];

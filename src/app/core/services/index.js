@@ -10,7 +10,7 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !exports.hasOwnProperty(p)) __createBinding(exports, m, p);
 };
 exports.__esModule = true;
-__exportStar(require("./api.service"), exports);
+__exportStar(require("./products.service"), exports);
 __exportStar(require("./shopping-cart.service"), exports);
 __exportStar(require("./user-profile.service"), exports);
 __exportStar(require("./alert.service"), exports);

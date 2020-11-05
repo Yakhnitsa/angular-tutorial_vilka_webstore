@@ -4,6 +4,7 @@ import { ProductsComponent } from './products/products.component';
 import { ShoppingCartComponent} from './shopping-cart/shopping-cart.component';
 import { UserProfileComponent} from './user-profile/user-profile.component';
 import {ComponentsModule} from '../components/components.module';
+import { EditorPageComponent } from './editor-page/editor-page.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import {ComponentsModule} from '../components/components.module';
   declarations: [
     ProductsComponent,
     ShoppingCartComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    EditorPageComponent
   ],
   exports: [
     ProductsComponent,

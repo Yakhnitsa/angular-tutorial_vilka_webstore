@@ -3,6 +3,7 @@
     {
       "id": 1,
       "name": "Chicken egg",
+      "type": "EGGS",
       "description": "Simple chicken egg, 1-st category",
       "mass": 50,
       "price": 250,
@@ -18,6 +19,7 @@
     {
       "id": 2,
       "name": "Chicken beast",
+      "type": "POULTRY",
       "description": "Chicken beast from broiler",
       "mass": 1000,
       "price": 12000,

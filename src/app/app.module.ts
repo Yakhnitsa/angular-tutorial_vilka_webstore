@@ -3,9 +3,9 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeaderComponent, FooterComponent, SidebarComponent} from './modules';
 import { HomeModule } from './modules/home/home.module';
-import { ProductCardComponent } from './modules/home/components';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AlertsComponent } from './modules/layout/alerts/alerts.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,8 @@ import { AlertsComponent } from './modules/layout/alerts/alerts.component';
   imports: [
     BrowserModule,
     HomeModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
